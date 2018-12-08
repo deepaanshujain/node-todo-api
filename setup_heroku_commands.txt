@@ -1,0 +1,16 @@
+-	heroku create
+
+-	Create and Configure Mlabs Database as shown in below URLs :
+
+	https://quicktechrefs.wordpress.com/2017/11/20/setting-up-mlab-addon-on-heroku/
+
+	https://www.freecodecamp.org/forum/t/guide-for-using-mongodb-and-deploying-to-heroku/19347
+	
+	heroku config:set MONGODB_URI=mongodb://root:password@ds121312.mlab.com:21312/databasename
+
+- 	git push heroku master
+
+- 	Check logs from command - "heroku logs"
+
+
+
